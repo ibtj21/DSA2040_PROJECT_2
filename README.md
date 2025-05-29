@@ -24,7 +24,7 @@
 
 ---
 
-### Tools 
+### Tools
 - DBMS: Microsoft SQL Server Management Studio  
 - SQL Client: pgAdmin  
 - Languages: TSQL  
@@ -56,13 +56,13 @@
 
 ## How to use  
 1. Setup a Microsoft SQL Server Management Studio and pgAdmin client. 
-1. Initialize OLTP database.
+1. Initialize OLTP Database.
 2. Create OLTP tables using OLTP_schema.sql.
 3. Populate sample transactional data using Data_simulation.sql .
 4. Set up OLAP warehouse with a star schema using OLAP_schema.sql.
-5. Run ETL Populating_dimension_tables.sql to populate dimention tables.
+5. Run ETL Populating_dimension_tables.sql to populate dimension tables.
 4. Run ETL Populating_fact_table.sql to populate fact_sales.
-5. Execute OLAP_queries queries.
+5. Execute OLAP_queries queries..
 
 
 
