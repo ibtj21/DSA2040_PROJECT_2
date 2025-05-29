@@ -115,7 +115,9 @@ ETL jobs apply the same transformation logic each time they run, reducing human 
 
  c. Business Insight Generation
 
-For example, the *Top Selling Products* query produced the following output:
+A key benefit of scheduled ETL automation is the ability to generate timely, data-driven insights that support strategic business decisions. Two sample analytical queries in this project —*Top Selling Products* and *Monthly Sales Trends*—illustrate how this works in practice.
+
+#### 🔹 *Top Selling Products*
 
 | Product           | Total Units Sold |
 |-------------------|------------------|
@@ -125,9 +127,11 @@ For example, the *Top Selling Products* query produced the following output:
 | Backpack          | 5                |
 | Running Shoes     | 4                |
 
-With scheduled automation, these insights are regularly updated, enabling faster decision-making about product stocking, marketing, or promotions.
+This query reveals that **Sunglasses** and **Smartphones** are the top-selling products, with 6 units each. These products may be driving the bulk of customer demand during the period analyzed. The fact that Bluetooth Speakers and Backpacks follow closely suggests they are also popular and worth attention.
 
-The *Monthly Sales Trends* query shows consistent revenue figures:
+> **Insight:** With these results refreshed regularly through automated ETL jobs, business teams can identify emerging bestsellers early, adjust inventory levels proactively, and focus marketing efforts on trending products. This is especially crucial in fast-moving retail environments, where sales performance can change quickly.
+
+#### 🔹 *Monthly Sales Trends*
 
 | Month | Total Revenue |
 |-------|---------------|
@@ -135,7 +139,9 @@ The *Monthly Sales Trends* query shows consistent revenue figures:
 | 4     | 1692.47       |
 | 5     | 1692.47       |
 
-This consistency suggests that revenue remained stable across these consecutive months, possibly due to similar market conditions or business activities.
+This query shows that total revenue remained **stable across three consecutive months**. While this might suggest consistent demand, it could also indicate market saturation or missed opportunities for growth. The company might explore whether pricing, promotions, or new product launches could improve revenue.
+
+> **Insight:** When such trends are identified early and consistently through scheduled ETL pipelines, they allow leadership to respond with timely interventions. Without automation, these insights might be delayed or missed altogether due to inconsistent manual updates.
 
 ---
 
