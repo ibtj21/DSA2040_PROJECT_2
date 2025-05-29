@@ -46,3 +46,21 @@ This project includes:
 - Automation ensures data is regularly and reliably updated without manual intervention, reducing errors and operational overhead.
 - Scheduled ETL jobs enable timely availability of fresh data for analysis, supporting faster decision-making.
 - Automation facilitates scalability and consistency, allowing the data pipeline to handle growing data volumes efficiently.
+
+---
+
+## Collaborators / Team members
+| Name                        | Student ID | GitHub Username                                 |
+|-----------------------------|------------|--------------------------------------------------|
+| Selmah Tzindori             | 669602     | [@SelmahT](https://github.com/SelmahT)           |
+| Levin Ekuam                 | 669913     | [@LEVIN0](https://github.com/LEVIN0)             |
+| Hana Hailemariam Gashaw    | 670555     | [@ibtj21](https://github.com/ibtj21)             |
+| Ted Korir                  | 670340     | [@tk2814](https://github.com/tk2814)             |
+| Trizah Nzioka              | 670074     | [@Trizah250000](https://github.com/Trizah250000) |
+| Angela Irungu              | 669289     | [@Irungu05](https://github.com/Irungu05)         |
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this project with proper attribution.
