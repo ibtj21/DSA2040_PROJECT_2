@@ -80,13 +80,6 @@
 
 
 
-
-
-
-
-
-
-
 # OLTP to OLAP Data Warehouse Project (SQL Server Edition)
 
 
@@ -111,7 +104,7 @@ This project includes:
 
 ---
 
-##  Reflection Questions & Answers
+##  Reflection Question And Answers
 
 ### 1. Why is the OLTP system normalized and the OLAP system denormalized?
 
@@ -120,7 +113,7 @@ This project includes:
 
 ---
 
-### 2. What challenges would you face if you ran analytical queries directly on the OLTP system?
+### 2.  What challenges would you face if you ran analytical queries directly on the OLTP system?
 
 - OLTP systems are optimized for transactional speed, not complex, large-scale queries, so analytical queries could cause slowdowns.
 - Running heavy analytical queries on OLTP could lead to locking and blocking, negatively impacting the performance of day-to-day operations.
@@ -140,10 +133,10 @@ This project includes:
 | Name                        | Student ID | GitHub Username                                 |
 |-----------------------------|------------|--------------------------------------------------|
 | Selmah Tzindori             | 669602     | [@SelmahT](https://github.com/SelmahT)           |
-| Levin Ekuam                 | 669913     | [@LEVIN0](https://github.com/LEVIN0)             |
+| Levin Ekuam              | 669913     | [@LEVIN0](https://github.com/LEVIN0)             |
 | Hana Hailemariam Gashaw    | 670555     | [@ibtj21](https://github.com/ibtj21)             |
 | Ted Korir                  | 670340     | [@tk2814](https://github.com/tk2814)             |
-| Trizah Nzioka              | 670074     | [@Trizah250000](https://github.com/Trizah250000) |
+| Trizah Nzioka            | 670074    | [@Trizah250000](https://github.com/Trizah250000) |
 | Angela Irungu              | 669289     | [@Irungu05](https://github.com/Irungu05)         |
 
 ---
