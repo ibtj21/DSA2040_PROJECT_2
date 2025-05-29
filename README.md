@@ -95,25 +95,25 @@ Follow these steps to set up and run the OLTP + OLAP Integration project:
 - Running heavy analytical queries on OLTP could lead to locking and blocking due to concurrent usage, negatively impacting the performance of day-to-day operations.
 - OLTP databases often lack historical or aggregated data needed for trend analysis, limiting the insights you can gain.
 ```
-- **3. How can automation (e.g., scheduled ETL jobs) help in a real-world data pipeline?**
+- *3. How can automation (e.g., scheduled ETL jobs) help in a real-world data pipeline?*
 
 Automation, particularly through scheduled ETL (Extract, Transform, Load) jobs, plays a critical role in enabling timely, reliable, and scalable data processing in real-world data environments.
 
 ---
 
-### a. Timely Data Availability
+ a. Timely Data Availability
 
 Automation allows data to be extracted, transformed, and loaded at regular intervals (e.g., hourly, nightly), supporting real-time or near-real-time analytics. In modern systems, ETL jobs can run frequently (e.g., every few minutes) to keep dashboards and reports updated with fresh data. This ensures the data warehouse reflects the latest transactional activity.
 
 ---
 
-### b. Consistency and Reliability
+ b. Consistency and Reliability
 
 ETL jobs apply the same transformation logic each time they run, reducing human error. Manual data movement is prone to mistakes, but automated ETL pipelines follow predefined scripts, ensuring accuracy, consistency, and repeatability. Most automation frameworks also support logging, error handling, and alerts, enhancing reliability.
 
 ---
 
-### c. Business Insight Generation
+ c. Business Insight Generation
 
 For example, the *Top Selling Products* query produced the following output:
 
@@ -139,13 +139,13 @@ This consistency suggests that revenue remained stable across these consecutive 
 
 ---
 
-### d. Reduced Load on OLTP Systems
+ d. Reduced Load on OLTP Systems
 
 Heavy analytical queries run directly on OLTP systems can degrade performance. Automation shifts this workload to the OLAP environment, ensuring that OLTP systems stay fast and responsive for day-to-day operations.
 
 ---
 
-### e. Supports Scalability
+ e. Supports Scalability
 
 As data volumes increase, automated ETL pipelines enable scalable data transformation management without additional manual effort, allowing the data warehouse to handle growing datasets and more complex trend analyses.
 
