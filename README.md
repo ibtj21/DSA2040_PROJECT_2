@@ -66,7 +66,7 @@ Follow these steps to set up and run the OLTP + OLAP Integration project:
    - Run `OLTP_schema.sql` (located in the `SQL_scripts/` folder) to create the normalized OLTP tables.
    - Execute `Data_simulation.sql` to populate the OLTP tables with sample transactional data.
 
-3. **Set Up the OLAP Data Warehouse**
+3. **Set Up the Online Analytical Processing (OLAP) Data Warehouse**
    - Create a new database for the OLAP system (star schema).
    - Run `OLAP_schema.sql` to create dimension and fact tables for the data warehouse.
 
