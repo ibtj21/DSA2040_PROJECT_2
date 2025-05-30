@@ -11,7 +11,7 @@
 
 ### Project Description
 - This project simulates a real-world retail business scenario by integrating OLTP (Online Transaction Processing) and OLAP (Online Analytical Processing) systems. The project demonstrates core data engineering and warehousing concepts such as data modeling, transformation, and aggregation.
-The project also includes the implementation of an ETL (Extract, Transform, Load) pipeline to migrate and transform transactional data from the OLTP environment into the OLAP schema.
+-The project also includes the implementation of an ETL (Extract, Transform, Load) pipeline to migrate and transform transactional data from the OLTP environment into the OLAP schema.
 ---
 
 ### Objective
